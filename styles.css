@@ -29,6 +29,12 @@ html {
     font-size: 14px;
     text-decoration: none;
 }
+#img21 {
+    margin-top: 20px;
+}
+#img22 {
+    margin-top: 30px;
+}
 .menu-link:before, .menu-link-red:before, .menu-link-blue:before, .menu-link-green:before, .menu-link:after, .menu-link-red:after, .menu-link-blue:after, .menu-link-green:after {
     content: "";
     background-color: #0fe4d2;
@@ -633,6 +639,15 @@ p {
     width: 90vw;
     grid-row-gap: 20px;
     margin: auto auto;
+    margin-top: 40px;
+}
+#hoverFor {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -84px;
+}
+#bottomImg {
+    margin-top: 90px;
 }
 .allgrid3 {
     /*margin: auto;*/

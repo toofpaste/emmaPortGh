@@ -426,8 +426,16 @@ figcaption {
 }
 
 
-
-
+#topLogo {
+    /*border: 1px solid black;*/
+    width: 100vw;
+    height: 88vh;
+    text-align: center;
+}
+#gifloop {
+    width: 70vw;
+    max-height: 80vh;
+}
 .allgrid {
      /*margin: auto;*/
      display: grid;
@@ -450,6 +458,11 @@ figcaption {
 }
 #bottomImg2 {
     grid-row-gap: 200px;
+    margin-bottom: 230px;
+}
+#bottomImg3 img{
+    max-width: 500px;
+
 }
 #hoverFor {
     font-size: 20px;

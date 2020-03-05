@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="045486ef-9d68-4a65-a939-07590e3558fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/ASHOCVideo.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/VitalFarmsvideowithcolorlogoandmusic.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -22,6 +24,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mlarr\Desktop\emmaPortGh\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,7 +56,9 @@
       <workItem from="1582911813117" duration="1599000" />
       <workItem from="1582936695425" duration="1055000" />
       <workItem from="1583264227131" duration="3746000" />
-      <workItem from="1583304848939" duration="1871000" />
+      <workItem from="1583304848939" duration="1994000" />
+      <workItem from="1583309277157" duration="6000" />
+      <workItem from="1583385905981" duration="3649000" />
     </task>
     <servers />
   </component>

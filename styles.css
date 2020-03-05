@@ -53,6 +53,14 @@ html {
     right: -96vw;
     top: -81px;
 }
+.btn-one1 {
+    color: black;
+    transition: all 0.3s;
+    /*position: relative;*/
+    position: absolute;
+    right: -96vw;
+    top: -81px;
+}
 .box-1 a {
     text-decoration: none;
     color: black;
@@ -60,10 +68,31 @@ html {
     position: absolute;
     right: 0;
 }
+#play1 {
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+}
+#play2 {
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+}
+#vid1 {
+    border: 1px solid black;
+}
+#vid2 {
+    border: 1px solid black;
+}
 .btn-one span {
     transition: all 0.3s;
-    font-size: 20px;
+    font-size:2.5vw;
     font-family: 'Quicksand', serif;
+}
+@media screen and (min-width: 800px) {
+    .btn-one span {
+        font-size: 20px;
+    }
 }
 .btn-one::before {
     content: '';
@@ -119,6 +148,13 @@ html {
     padding-top: 80px;
     padding-bottom: 120px;
 }
+
+#pageBreak2 {
+    text-align: center;
+    font-size: 90px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
 .allbuttons{
     width: 24em;
     position: absolute;
@@ -141,6 +177,9 @@ html {
 }
 #img22 {
     margin-top: 30px;
+}
+.bt2 {
+    right: -71vw;
 }
 .menu-link:before, .menu-link-red:before, .menu-link-blue:before, .menu-link-green:before, .menu-link:after, .menu-link-red:after, .menu-link-blue:after, .menu-link-green:after {
     content: "";
@@ -263,6 +302,9 @@ p {
     font-family: 'Quicksand', serif;
 }
 #pageBreak {
+    font-family: 'Quicksand', serif;
+}
+#pageBreak2 {
     font-family: 'Quicksand', serif;
 }
 .allbuttons {
@@ -455,6 +497,22 @@ figcaption {
     grid-row-gap: 20px;
     margin: auto auto;
     margin-top: 40px;
+}
+
+.allgrid5 {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(535px, 1fr) );
+    grid-auto-rows: auto;
+    width: 90vw;
+    grid-row-gap: 290px;
+    margin: auto auto;
+    margin-top: 40px;
+}
+.allgrid5 figure {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    text-align-last: center;
 }
 #bottomImg2 {
     grid-row-gap: 200px;

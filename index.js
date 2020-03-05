@@ -6,6 +6,8 @@ $(window).scroll(function() {
         $("#button").removeClass('show');
     }
 });
+var count = 0;
+var count2 = 0;
 $(document).ready(function() {
     $(".allgrid").fadeOut(10);
     $("#top").fadeOut(10);
@@ -14,6 +16,51 @@ $(document).ready(function() {
         e.preventDefault();
         $('html, body').animate({scrollTop: 0}, '300');
     });
+
+    // $("#play1").on('click', function (e) {
+    //     e.preventDefault();
+    //     playVid();
+    //     count++;
+    // });
+    // $("#play2").on('click', function (e) {
+    //     e.preventDefault();
+    //     playVid2();
+    //     count2++;
+    // });
+    //
+    // $("#vid1").on('click', function (e) {
+    //     e.preventDefault();
+    //    pauseVid();
+    //    count--;
+    // });
+    // $("#vid2").on('click', function (e) {
+    //     e.preventDefault();
+    //     pauseVid2();
+    //     count2--;
+    // });
+    //
+    //
+    // var vid = document.getElementById("vid1");
+    // var vid2 = document.getElementById("vid2");
+    // function playVid() {
+    //     $("#play1").fadeOut(300);
+    //     vid.play();
+    // }
+    //
+    // function pauseVid() {
+    //     $("#play1").fadeIn(300);
+    //     vid.pause();
+    // }
+    //
+    // function playVid2() {
+    //     $("#play2").fadeOut(300);
+    //     vid2.play();
+    // }
+    //
+    // function pauseVid2() {
+    //     $("#play2").fadeIn(300);
+    //     vid2.pause();
+    // }
 
     setTimeout(function(){
         $("#topLogo").fadeOut(1000);
